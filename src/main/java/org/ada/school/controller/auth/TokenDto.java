@@ -24,12 +24,4 @@ public class TokenDto
     {
         return expirationDate;
     }
-
-    public void setToken(String token) {
-        this.token = token;
-    }
-
-    public void setExpirationDate(Date expirationDate) {
-        this.expirationDate = expirationDate;
-    }
 }
